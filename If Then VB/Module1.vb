@@ -39,6 +39,10 @@
             Console.WriteLine("{0} is less than or equal to {1}", number1, number2)
         End If
 
+        If number1 = 0 Then
+            Console.WriteLine("{0} number one is equal to zero", number1)
+        End If
+
     End Sub
 
 End Module
